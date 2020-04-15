@@ -1,0 +1,25 @@
+/* Providing background of the page a color*/
+
+body {
+    background: #000000;
+}
+
+/* Providing background of the page an image*/
+
+body {
+    background: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Border Basics */
+
+h1 {
+    color: pink;
+    border-color: purple;
+    border-width: 5px;
+    border-style: dashed;
+    
+    /* OR */ /* border: 5px Solid purple; */
+
+}

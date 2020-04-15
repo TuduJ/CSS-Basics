@@ -1,0 +1,40 @@
+/* ===========================
+        GENERAL RULE
+==============================
+
+selector {
+    property : value;
+    property : value;
+} 
+
+ */
+
+/* Example */
+body {
+    color:blue;
+}
+
+/* =====================
+    Element Selector
+========================*/
+
+h1 {
+    color: red;
+}
+
+/* =====================
+    Class Selector
+========================*/
+
+.class-name {
+    color:red;
+}
+
+/* =====================
+    ID Selector
+========================*/
+
+#id-name {
+    color:red;
+}
+

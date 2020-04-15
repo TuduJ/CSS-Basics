@@ -1,0 +1,13 @@
+/* Basic Font Properties */
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; /* use em or rem */
+    font-weight: 100; /* 100-800 */
+    text-align: center;
+    text-decoration: dashed;
+    line-height: 1px;
+}
+
+/* 2em will apply double the size of parent and 2rem will apply double the root size */ 

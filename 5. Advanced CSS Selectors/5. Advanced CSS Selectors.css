@@ -1,0 +1,39 @@
+/* =====================
+   * Selector
+========================*/
+
+* {
+    color:#000000; /* selects everything on the page */
+}
+
+/* =====================
+   Descendant Selector
+========================*/
+
+div h1 {
+    color:#000000; /* selects all h1(s) inside div(s) */
+}
+
+/* =====================
+   Adjacent Selector
+========================*/
+
+div + h1 {
+    color:#000000; /* selects all h1(s) immediately following div(s) */
+}
+
+/* =====================
+   Attribute Selector
+========================*/
+
+a[href="google.com"] {
+    color:#000000; /* selects all a tags with href set to google.com */
+}
+
+li:nth-last-of-type(3){
+    color: teal; /* select every third element from the list items */
+}
+
+li:nth-last-of-type(odd){
+    color: teal; /* select every odd element from the list items e.g 1st 3rd 5th...*/
+}

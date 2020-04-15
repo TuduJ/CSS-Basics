@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Specifity</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            h1 {
+                color: blue;
+            }
+
+            .demo {
+                color:red;
+            }
+
+            #demo {
+                color: teal;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Inherits blue color from Element Selector -->
+        <h1>Blue Color!</h1>
+
+        <!-- Inherits blue color from Element Selector but is over-ridden by class selector -->
+        <h1 class="demo">Red Color!</h1> 
+
+        <!-- Inherits blue color then red and finally Red because ID is more specific -->
+        <h1 class="demo" id="demo">Red Color!</h1> 
+
+         <!-- No class, id color is applied as Inline CSS is the most Specific -->
+        <h1 class="demo" id="demo" style="color:brown">Brown Color!</h1>
+        
+
+    </body>
+</html>

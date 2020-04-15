@@ -1,0 +1,25 @@
+/* =====================
+    HEXADECIMAL
+========================*/
+
+h1 {
+    color:#000000; /* from 0 to F as in hexademical system */
+}
+
+/* =====================
+         RGB
+========================*/
+
+h1 {
+    color:rgb(0, 255 ,0); /* from 0 to 255 */
+}
+
+/* =====================
+         RGBA
+========================*/
+
+h1 {
+    color:rgba(0, 255 , 0, 1); /* from 0 to 255 & last is for opacity where 1 is full */
+}
+
+
