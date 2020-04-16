@@ -1,0 +1,42 @@
+p {
+    height: 100px; ;
+    background-color: turquoise;
+    width: 100px;
+    border: 5px Solid Black;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+/* Translate */
+
+.translate {
+    transform: translate(100px);
+    background-color: pink;
+}
+
+
+/* Scale */
+
+.scale {
+    transform: scale(1.2);
+    background-color: pink;
+    transform-origin: left; /* Scales with origin left */
+}
+
+/* Rotate */
+
+.rotate {
+   transform: rotate(45deg);
+   background-color: pink;
+}
+
+/* You can use Pseudo Classes with tthese transforms */
+
+.demo:hover {
+    transform: rotate(45deg);
+    background-color:yellow;
+    transition-duration: 3s; /* Takes 1 second to completely rotate on hever */ 
+    transition-delay: 1s; /* waits for 1 second to start animation */
+}
+
