@@ -1,0 +1,25 @@
+button {
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+/* HOVER Pseudo Class */
+
+button:hover {
+    color: red;
+}
+
+
+/* FOCUS Pseudo Class */
+
+button:focus {
+    color:blue;
+}
+
+/* ACTIVE Pseudo Class */
+
+button:active {
+    color: pink;
+}
+
