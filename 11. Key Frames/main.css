@@ -1,0 +1,30 @@
+p {
+    animation-name: rainbowText;
+    animation-iteration-count: infinite; /* number of times to run */
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+
+    /* useful properties */
+    /*   animation-direction: reverse;
+         animation-fill-mode: forwards;  */
+}
+
+@keyframes rainbowText {
+    0% {
+        color:red;
+    }
+
+    25% {
+        color:blue;
+        font-size: 2em;
+    }
+    75% {
+        color:pink;
+        font-size: 1em;
+    }
+
+    100% {
+        color:orange;
+    }
+}
